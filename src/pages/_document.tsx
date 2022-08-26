@@ -3,13 +3,14 @@ import { Head, Html, Main, NextScript } from 'next/document';
 export default function document() {
     const isProd = process.env.NODE_ENV === 'production';
 
+    const umamiUrl = process.env.UMAMI_URL;
+    const umamiWebsiteId = process.env.UMAMI_WEBSITE_ID;
+
     return (
         <Html>
             <title>Hubert</title>
             <Head>
-                {isProd && (
-                    <script async defer data-website-id="28645678-789e-4472-aa3c-b54e4fe686ae" src="https://umami.finndore.dev/umami.js"></script>
-                )}
+                {isProd && umamiWebsiteId && umamiUrl && <script async defer data-website-id={umamiUrl} src={umamiWebsiteId}></script>}
                 <meta name="description" content="Hubert" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:image" content="/hubert-selfie.png" />

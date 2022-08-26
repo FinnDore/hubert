@@ -3,5 +3,5 @@
 </p>
 
 <div align="center">
-   [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/9kDZns?referralCode=64JXqe)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/9kDZns?referralCode=64JXqe)
 </div>

@@ -12,7 +12,7 @@ export default function document() {
                 )}
                 <meta name="description" content="Hubert" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:image" content="/hero-image-dark.png" />
+                <meta property="og:image" content="/hubert-selfie.png" />
                 <meta name="theme-color" content="#f9a038" />
                 <meta name="twitter:card" content="summary_large_image"></meta>
             </Head>

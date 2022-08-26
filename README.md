@@ -1,3 +1,3 @@
 <p>
-  <img src="./public/huber-selfie.png" width="100%" alt="hubert />
+  <img src="./public/hubert-selfie.png" width="100%" alt="hubert />
 </p>

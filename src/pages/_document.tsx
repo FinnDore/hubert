@@ -10,7 +10,7 @@ export default function document() {
         <Html>
             <title>Hubert</title>
             <Head>
-                {isProd && umamiWebsiteId && umamiUrl && <script async defer data-website-id={umamiUrl} src={umamiWebsiteId}></script>}
+                {isProd && umamiWebsiteId && umamiUrl && <script async defer data-website-id={umamiWebsiteId} src={umamiUrl}></script>}
                 <meta name="description" content="Hubert" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:image" content="/hubert-selfie.png" />
